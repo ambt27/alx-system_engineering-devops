@@ -11,4 +11,6 @@ chmod 753 : sets mode
 chmod --reference =  :set mode to a list of file
 chmod -R ugo+X : Sets the mode of the file
 mkdir -m 751 my8dir : adds execute permission to all subdirectories
-chown -hR vincent:staff :
+chown -hR vincent:staff .: creates a directory called my_dir with permissions 751 in the working directory
+chgrp school hello : changes the group owner
+
